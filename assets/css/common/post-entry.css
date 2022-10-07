@@ -37,14 +37,9 @@
     position: relative;
     margin-bottom: var(--gap);
     padding: var(--gap);
-    background: var(--entry);
+    background: var(--theme);
     border-radius: var(--radius);
     transition: transform 0.1s;
-    border: 1px solid var(--border);
-}
-
-.post-entry:active {
-    transform: scale(0.96);
 }
 
 .tag-entry .entry-cover {
@@ -67,7 +62,11 @@
     -webkit-line-clamp: 2;
 }
 
-.entry-footer {
+.entry-content p {
+    text-indent: 2em
+}
+
+.entry-footer, .entry-footer-category {
     color: var(--secondary);
     font-size: 13px;
 }

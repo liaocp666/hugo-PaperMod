@@ -56,7 +56,6 @@
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
@@ -66,7 +65,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>
-      {{- .Title }}
+      <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">{{- .Title }}</a>
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h2>
   </header>
@@ -80,7 +79,6 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
 

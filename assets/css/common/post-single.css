@@ -4,7 +4,7 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     font-size: 40px;
 }
 
@@ -67,6 +67,10 @@
 
 .post-content h6 {
     font-size: 12px;
+}
+
+.post-content p {
+    text-indent: 2em;
 }
 
 .post-content a,
