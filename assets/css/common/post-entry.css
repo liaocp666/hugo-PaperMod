@@ -62,10 +62,6 @@
     -webkit-line-clamp: 2;
 }
 
-.entry-content p {
-    text-indent: 2em
-}
-
 .entry-footer, .entry-footer-category {
     color: var(--secondary);
     font-size: 13px;

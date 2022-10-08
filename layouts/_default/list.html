@@ -60,9 +60,9 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}">
+<article class="{{ $class }} entry-list">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  <div class="entry-info">
   <header class="entry-header">
     <h2>
       <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">{{- .Title }}</a>
@@ -78,6 +78,10 @@
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
   </footer>
+  </div>
+  <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  </a>
   {{- end }}
 </article>
 {{- end }}

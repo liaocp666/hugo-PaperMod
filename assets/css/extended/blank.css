@@ -3,3 +3,21 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+.entry-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entry-list .entry-cover {
+    padding-left: 18px;
+    margin-bottom: unset;
+    width: 170px;
+    min-width: 170px;
+    height: auto;
+}
+
+.entry-list .entry-cover img {
+    border-radius: 0px;
+}

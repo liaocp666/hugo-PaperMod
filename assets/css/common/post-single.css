@@ -69,10 +69,6 @@
     font-size: 12px;
 }
 
-.post-content p {
-    text-indent: 2em;
-}
-
 .post-content a,
 .toc a:hover {
     box-shadow: 0 1px 0;
