@@ -13,8 +13,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .entry-list .entry-cover {
     padding-left: 18px;
     margin-bottom: unset;
-    width: 170px;
-    min-width: 170px;
+    width: 100px;
+    min-width: 100px;
     height: auto;
 }
 
