@@ -25,3 +25,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .post-content pre code {
     font-family: noto serif sc,serif;
 }
+
+.post-content img {
+    margin: 0 auto;
+}
