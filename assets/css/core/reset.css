@@ -21,10 +21,8 @@ h6 {
     color: var(--primary);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
-
 body {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'LXGWWenKai sans-serif', serif;
     font-size: 18px;
     line-height: 1.6;
     word-break: break-word;
