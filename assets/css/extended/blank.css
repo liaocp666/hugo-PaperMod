@@ -29,3 +29,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .post-content img {
     margin: 0 auto;
 }
+
+.entry-content {
+    font-size: 18px;
+}
