@@ -22,10 +22,6 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     border-radius: 0px;
 }
 
-.post-content pre code {
-    font-family: 'LXGW WenKai Mono','noto serif sc',serif;
-}
-
 .post-content img {
     margin: 0 auto;
 }
