@@ -29,3 +29,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .entry-content {
     font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+    .entry-list .entry-cover {
+        display: none
+    }
+}
